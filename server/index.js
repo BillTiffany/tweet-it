@@ -11,7 +11,7 @@ app.post("/api/tweets", async (req, res) => {
   const { tweets } = req.body;
   console.log(req.body, tweets);
 
-  const success = await db.add_tweets([tweets]);
+  const success = await db.add_tweet([tweet]);
   console.log(success);
   res.status(200).send(success);
 });

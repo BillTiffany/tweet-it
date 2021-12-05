@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Tweets from "./Tweets";
 import { Routes, Route } from "react-router-dom";
